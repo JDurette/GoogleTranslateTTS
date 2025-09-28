@@ -16,26 +16,3 @@ canvas {
     width: 100vw;
     height: 100vh;
 }
-
-/* Buy Me a Coffee button */
-.bmc-button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    text-decoration: none;
-    background: #ffdd00;
-    color: #000;
-    font-weight: bold;
-    padding: 12px 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    z-index: 10; /* makes sure it stays above canvas */
-}
-
-.bmc-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
-}
