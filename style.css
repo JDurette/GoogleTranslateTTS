@@ -8,6 +8,14 @@ body {
     background: black;
     overflow: hidden;
     position: relative; /* so button is positioned relative to body */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 /* Canvas full screen */
